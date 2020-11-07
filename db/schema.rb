@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2020_11_07_013901) do
     t.string "source_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.bigint "category_id"
+    t.bigint "category_id", null: false
     t.index ["category_id"], name: "index_collections_on_category_id"
   end
 
