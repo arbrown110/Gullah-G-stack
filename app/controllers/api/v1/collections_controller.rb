@@ -1,7 +1,7 @@
 class Api::V1::CollectionsController < ApplicationController
     def index
      @collections = Collection.all
-     render json: @collections
+     render json: CollectionSerializer.new(@collections)
     end
 
     def create
