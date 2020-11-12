@@ -1,15 +1,15 @@
 class Api::V1::CollectionsController < ApplicationController
     def index
-     @collections = Collection.all
-     render json: CollectionSerializer.new(@collections)
+     collections = Collection.all
+     render json: CollectionSerializer.new(collections)
     end
 
     def create
-        @collection.new(collection_params)
-        if @collection.save
-         render json: @collection, status: :accepted
+        collection = Collection.new(collection_params)
+        if collection.save
+         render json: CollectionSerializer.new(collections), status: :accepted
         else
-         render json: {errors: @collection.errors.full_messages }, status: :unprocessible_entity
+         render json: {errors: collection.errors.full_messages}, status: :unprocessible_entity
         end
     end
 
