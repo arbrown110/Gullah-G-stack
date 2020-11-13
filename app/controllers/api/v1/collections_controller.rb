@@ -6,7 +6,6 @@ class Api::V1::CollectionsController < ApplicationController
 
     def create
         collection = Collection.new(collection_params)
-        binding.pry
         if collection.save
          render json: CollectionSerializer.new(collection), status: :accepted
         else
