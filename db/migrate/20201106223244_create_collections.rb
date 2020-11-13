@@ -5,7 +5,6 @@ class CreateCollections < ActiveRecord::Migration[6.0]
       t.string :image_url
       t.string :description
       t.string :source_url
-      t.integer :category_id
 
       t.timestamps
     end
