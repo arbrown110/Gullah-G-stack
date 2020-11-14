@@ -13,6 +13,11 @@ class Api::V1::CollectionsController < ApplicationController
         end
     end
 
+    def destroy
+        collection = Collection.find(collection_params)
+        collection.destroy
+    end
+
     private
 
     def collection_params
