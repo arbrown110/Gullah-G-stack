@@ -13,10 +13,11 @@ class Api::V1::CollectionsController < ApplicationController
         end
     end
 
-    def destroy
-        collection = Collection.find(collection_params)
-        collection.destroy
+    def delete
+        item = Collection.find_by(id: params[:id])
+        item.destroy
     end
+
 
     private
 
