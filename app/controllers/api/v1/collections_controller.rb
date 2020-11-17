@@ -1,4 +1,5 @@
 class Api::V1::CollectionsController < ApplicationController
+    
     def index
      collections = Collection.all
      render json: CollectionSerializer.new(collections)
@@ -13,9 +14,10 @@ class Api::V1::CollectionsController < ApplicationController
         end
     end
 
-    def delete
-        item = Collection.find_by(id: params[:id])
-        item.destroy
+
+    def destroy
+        collect = Collection.find_by(id: params[:id])
+        collect.destroy
     end
 
 
