@@ -8,6 +8,7 @@ class Api::V1::CollectionsController < ApplicationController
     def create
         collection = Collection.new(collection_params)
         if collection.save
+           #
          render json: CollectionSerializer.new(collection), status: :accepted
         else
          render json: {errors: collection.errors.full_messages}, status: :unprocessible_entity
@@ -16,8 +17,9 @@ class Api::V1::CollectionsController < ApplicationController
 
 
     def destroy
-        collect = Collection.find_by(id: params[:id])
-        collect.destroy
+     collect = Collection.find(params[:id])
+     #binding.pry
+     collect.destroy
     end
 
 
