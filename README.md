@@ -9,7 +9,10 @@ Hwere is a link to my process via my blog post **place blog post**
 
 After cloning the repo, install the dependencies by executing the below command in your terminal:
 
+$ cd Gullah-G-stack
 $ bundle install
+$ rails db:migrate
+$ rake db:seed
 
 Launch the system using the below command in your terminal and navigating to your specified local host URL:
 
