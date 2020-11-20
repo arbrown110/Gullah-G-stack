@@ -26,9 +26,10 @@ In it's current state The user will be able to do the follwoing:
 - USer can Delete  a collection
 
 In the Future I want to add more  functionality :
--Login / Logout capabiltiies
+
 - Edit functionality
 - More interactive media
+- Login / logout for new and current users
 
 ## Contributing:
 
