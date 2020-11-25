@@ -1,7 +1,7 @@
 # Gullah-G-stack
 
 
-Gullah-G-stack is singel page application where you can find cultureal favorites from the Gullah-Geehee Culture made by users that are apart of the Gullah-Geech Nation. It helps bring awareness of cultural norms and information of popular topics with in the Gullah-Geechee cooridor .
+Gullah-G-stack is single page application where you can find cultureal favorites from the Gullah-Geehee Culture made by users that are apart of the Gullah-Geechee Nation. It helps bring awareness of cultural norms and information of popular topics with in the Gullah-Geechee cooridor .
 
 - Here is a link to my process via my blog post https://arbrown110.github.io/rails_js_project_conclusion
 - Also a link to my frontend  https://github.com/arbrown110/Gullah-G_frontend
