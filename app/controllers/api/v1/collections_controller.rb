@@ -18,7 +18,7 @@ class Api::V1::CollectionsController < ApplicationController
 
     def destroy
      collect = Collection.find(params[:id])
-     #binding.pry
+    # binding.pry
      collect.destroy
     end
 
