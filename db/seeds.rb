@@ -20,5 +20,5 @@ Collection.create(name:"slammin' sammen", image_url: "https://images.squarespace
 Collection.create(name:"geechee fried corn", image_url: "https://i0.wp.com/www.cookedbyjulie.com/wp-content/uploads/2019/10/fried-corn-with-bacon-one.jpg?w=1096&ssl=1", description:
 "sweet corn fried ina skillet wit' peppers, onions & gullah seasonings", source_url: "https://virgilsgullahkitchen.com/menu", category_id: food.id )
  
-Collection.create(name:"shrimp n' grits wit' crab", image_url: "https://images.squarespace-cdn.com/content/v1/5cbe51880b77bd576cb030e5/1580238869682-E3337M96MN5BLAKSRYK6/ke17ZwdGBToddI8pDm48kD2z-LLWBH7obTt8oweMjYNZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PImOHbQbjXasSwxFcLdk_scOGqT4Z6kt8j9Nmw5KBS9fwKMshLAGzx4R3EDFOm1kBS/shrimp.jpg?format=2500w", description:
+Collection.create(name:"shrimp n' grits wit' crab", image_url: "https://shewearsmanyhats.com/wp-content/uploads/2015/05/shrimp-grits-1c.jpg", description:
 "six (6) white shrimp cooked in crab gravy ova stone-ground chedda cheese grits (substitute grits for jazmine rice)", source_url: "https://virgilsgullahkitchen.com/menu", category_id: food.id )

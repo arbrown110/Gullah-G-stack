@@ -8,7 +8,6 @@ class Api::V1::CollectionsController < ApplicationController
     def create
         collection = Collection.new(collection_params)
         if collection.save
-           #
          render json: CollectionSerializer.new(collection), status: :accepted
         else
          render json: {errors: collection.errors.full_messages}, status: :unprocessible_entity
