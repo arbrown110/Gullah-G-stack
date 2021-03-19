@@ -6,6 +6,7 @@ class Api::V1::CollectionsController < ApplicationController
     end
 
     def create
+
         collection = Collection.new(collection_params)
         if collection.save
          render json: CollectionSerializer.new(collection), status: :accepted
@@ -17,7 +18,7 @@ class Api::V1::CollectionsController < ApplicationController
 
     def destroy
      collect = Collection.find(params[:id])
-     #binding.pry
+    
      collect.destroy
     end
 
